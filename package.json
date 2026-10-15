@@ -20,7 +20,10 @@
     "typecheck": "turbo run typecheck",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "precommit": "npm run format && npm run typecheck && npm test"
+    "precommit": "npm run format && npm run typecheck && npm test",
+    "aw:init": "./scripts/gh-aw-init.sh",
+    "aw:list": "./scripts/gh-aw-local-runner.sh list",
+    "aw:run": "./scripts/gh-aw-local-runner.sh run"
   },
   "author": "Google LLC",
   "license": "Apache-2.0",
